@@ -85,9 +85,9 @@ def Write_The_Paragraphs_And_Urls(Paragraphs):
             f.write(Paragraphs.get(i) + '\n')
     Url.close()
 
-
+#test
 Crawler_Function(Main_Link="https://www.masterstudies.com/Master-of-Science-in-Computational-Science/Switzerland/USI/",Number_Of_Links=200, RestartValue=1, Number_of_Threads=200)
-#Crawler_Function(Main_Link="https://www.fluentu.com/blog/english/best-websites-to-learn-english/", Number_Of_Links=200, RestartValue=1, Number_of_Threads=100)
+# Crawler_Function(Main_Link="https://www.fluentu.com/blog/english/best-websites-to-learn-english/", Number_Of_Links=200, RestartValue=1, Number_of_Threads=100)
 # Crawler_Function(Main_Link= "Wikipedia", Number_Of_Links=200, RestartValue=1, Number_of_Threads=100)
 # Crawler_Function(Main_Link= "https://www.espn.com/", Number_Of_Links=200, RestartValue=1, Number_of_Threads=100)
 
